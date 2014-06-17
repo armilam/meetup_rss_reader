@@ -1,10 +1,13 @@
 package com.example.myrssreader.app;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -12,10 +15,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements AdapterView.OnItemClickListener{
 
     private ListView headlines;
     private List<String> headlineTitles = new ArrayList<String>();
+    private List<NewsStory> stories = new ArrayList<NewsStory>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +28,8 @@ public class MainActivity extends Activity {
         headlines = (ListView) findViewById(R.id.list_headlines);
         new DownloadHeadlines(this).execute();
         headlines.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, headlineTitles));
+
+        headlines.setOnItemClickListener(this);
     }
 
 
@@ -50,10 +56,20 @@ public class MainActivity extends Activity {
         Log.e("TAG", "Downloaded");
         ArrayAdapter adapter = (ArrayAdapter<String>)headlines.getAdapter();
         for(NewsStory story : newsStories){
-            if(story.getTitle() != null)
+            if(story.getTitle() != null) {
                 adapter.add(story.getTitle());
+                this.stories.add(story);
+            }
         }
 
     }
 
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Log.e("TAG", "Story Url: " + this.stories.get(position).getTitle());
+        Intent intent = new Intent(this, StoryViewActivity.class);
+        intent.putExtra("STORY_URL", "http://www.google.com");
+
+        startActivity(intent);
+    }
 }

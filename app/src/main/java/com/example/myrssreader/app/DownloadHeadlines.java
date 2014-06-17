@@ -78,7 +78,7 @@ public class DownloadHeadlines extends AsyncTask<Void, Void, List<NewsStory>>{
                             story.setTitle(text);
                         }
                         else if(name.equals("link")){
-                            story.setLink(text);
+                            story.setLink("www.google.com");
                         }
                         else if(name.equals("description")){
                             story.setDescription(text);
