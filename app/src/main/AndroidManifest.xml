@@ -20,11 +20,18 @@
         </activity>
         <activity
             android:name=".StoryViewActivity"
-            android:label="@string/title_activity_story_view"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name=".StoryText"
+            android:label="@string/title_activity_story_text"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myrssreader.app.MainActivity" />
         </activity>
     </application>
 

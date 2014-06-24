@@ -12,20 +12,25 @@ import android.webkit.WebViewClient;
 
 public class StoryViewActivity extends Activity {
 
+    private static final String STORY_URL = "story_url";
+    private static final String STORY_TITLE = "story_title";
 
-//    public static Intent instance(Context context, String url){
-//        Intent webView = new Intent(context, StoryViewActivity.class);
-//
-//    }
-
-
+    public static Intent instance(Context context, String url, String title){
+        Intent webView = new Intent(context, StoryViewActivity.class);
+        webView.putExtra(STORY_TITLE, title);
+        webView.putExtra(STORY_URL, url);
+        return webView;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story_view);
 
-       String url =  getIntent().getExtras().getString("STORY_URL");
+        String url =  getIntent().getExtras().getString(STORY_URL);
+        String title = getIntent().getExtras().getString(STORY_TITLE);
+        String story = getIntent().getStringExtra("STORY");
+        getActionBar().setTitle(title);
         WebView view = (WebView)findViewById(R.id.web_story);
         view.setWebViewClient(new WebViewClient());
         view.loadUrl(url);
@@ -34,20 +39,13 @@ public class StoryViewActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.story_view, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
         return super.onOptionsItemSelected(item);
     }
 }

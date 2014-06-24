@@ -2,7 +2,14 @@ package com.example.myrssreader.app;
 
 public class NewsStory {
     private String title;
-    private String description;
+    private String link;
+    private String story;
+
+    public NewsStory(String title, String link, String story){
+        this.title = title;
+        this.link = link;
+        this.story = story;
+    }
 
     public String getTitle() {
         return title;
@@ -10,14 +17,6 @@ public class NewsStory {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public String getLink() {
@@ -28,5 +27,12 @@ public class NewsStory {
         this.link = link;
     }
 
-    private String link;
+    public String getStory() {
+        return story;
+    }
+
+    public void setStory(String story) {
+        this.story = story;
+    }
+
 }
