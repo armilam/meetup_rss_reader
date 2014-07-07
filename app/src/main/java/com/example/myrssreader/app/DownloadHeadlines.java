@@ -4,6 +4,8 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.util.Xml;
 
+import com.example.model.NewsStory;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -32,7 +34,7 @@ public class DownloadHeadlines extends AsyncTask<Void, Void, List<NewsStory>>{
         List<NewsStory> stories = null;
         InputStream stream;
         try {
-            URL url = new URL("https://news.google.com/?output=rss");
+            URL url = new URL("https://news.google.com/?topic=s&output=rss");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setReadTimeout(10000 /* milliseconds */);
             conn.setConnectTimeout(15000 /* milliseconds */);

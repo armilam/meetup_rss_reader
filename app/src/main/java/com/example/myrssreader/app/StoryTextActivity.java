@@ -9,13 +9,13 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 
-public class StoryText extends Activity{
+public class StoryTextActivity extends Activity{
     private static final String STORY_TEXT = "story_text";
     private static final String STORY_URL = "story_url";
     private static final String STORY_TITLE = "story_title";
 
     public static Intent instance(Context context, String url, String title, String story){
-        Intent storyIntent = new Intent(context, StoryText.class);
+        Intent storyIntent = new Intent(context, StoryTextActivity.class);
         storyIntent.putExtra(STORY_TITLE, title);
         storyIntent.putExtra(STORY_URL, url);
         storyIntent.putExtra(STORY_TEXT, story);

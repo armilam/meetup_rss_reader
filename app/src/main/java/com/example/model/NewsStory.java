@@ -1,4 +1,4 @@
-package com.example.myrssreader.app;
+package com.example.model;
 
 public class NewsStory {
     private String title;
