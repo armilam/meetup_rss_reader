@@ -2,161 +2,23 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/asm-commons-5.0.1-1397924bc32200c0a2a64f06f9ee5b278157e544.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.1/7b7147a390a93a14d2edfdcf3f7b0e87a0939c3e/asm-commons-5.0.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="7b7147a390a93a14d2edfdcf3f7b0e87a0939c3e"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/powermock-core-1.5.5-469c71351e4345a20346502d29a11992aaa76bd9.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-core/1.5.5/ba81ce0cbc358f1a9570db81a417d5a60a3c6c85/powermock-core-1.5.5.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="ba81ce0cbc358f1a9570db81a417d5a60a3c6c85"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/powermock-module-junit3-1.5.5-bce0806a9284ebfafe693a48cca611236296e030.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit3/1.5.5/32c9fdf6dfedd2e8e4b4152ed0ec5f2bfd899424/powermock-module-junit3-1.5.5.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="32c9fdf6dfedd2e8e4b4152ed0ec5f2bfd899424"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/maven-ant-tasks-2.1.3-0d512d045722a56e8033b203b1c77332d79f1fab.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-ant-tasks/2.1.3/b09be554228d66d208e5fef5266844aacf443abc/maven-ant-tasks-2.1.3.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="b09be554228d66d208e5fef5266844aacf443abc"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/sqlite4java-0.282-a4aecda7cb1c37e26993083b27a07e71ad4b96ba.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.almworks.sqlite4java/sqlite4java/0.282/745a7e2f35fdbe6336922e0d492c979dbbfa74fb/sqlite4java-0.282.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="745a7e2f35fdbe6336922e0d492c979dbbfa74fb"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/mockito-all-1.9.5-f0b58895022da4ac2af326f6086251a6d9be6d83.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-all/1.9.5/79a8984096fc6591c1e3690e07d41be506356fa5/mockito-all-1.9.5.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="79a8984096fc6591c1e3690e07d41be506356fa5"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/guava-17.0-33e124bfe35c73b51dbc3be6807f48e26cdb46dc.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="9c6ef172e8de35fd8d4d8783e4821e57cdef7445"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/ant-1.8.0-7f16ce0764fce7ede920558d98ea29b9955b2f2c.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.8.0/7b456ca6b93900f96e58cc8371f03d90a9c1c8d1/ant-1.8.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="7b456ca6b93900f96e58cc8371f03d90a9c1c8d1"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/vtd-xml-2.11-84b1c8a1cf318f2994c23145976198ed8c44c277.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.ximpleware/vtd-xml/2.11/ee5bcf62c1acf76434ee9f1c67a840bafef72a6d/vtd-xml-2.11.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="ee5bcf62c1acf76434ee9f1c67a840bafef72a6d"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/hamcrest-core-1.3-092b3fbfc428942c47346f8d20f6ca9bf7c2e349.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/support-v4-19.0.1-c0e009b040bec3b1664b926466e143c4dbf200d6.jar"
-        jar="/Users/vk/Development/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-0e51a774191170fa9fc7a35897290905e6f4338c.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/objenesis-2.1-501e5b5d64947d2115356a2aaf2ce0a1a029a8b3.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="87c0ea803b69252868d09308b4618f766f135a96"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/ant-launcher-1.8.0-e0cc32a055f779c79488c35ccce7f933950bfd2f.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.8.0/8b53ba16fa62fb1034da8f1de200ddc407c8381/ant-launcher-1.8.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="08b53ba16fa62fb1034da8f1de200ddc407c8381"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/objenesis-1.3-7446457d29c7c8c5ef0f7a8574f076c629b59b72.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/1.3/dc13ae4faca6df981fc7aeb5a522d9db446d5d50/objenesis-1.3.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="dc13ae4faca6df981fc7aeb5a522d9db446d5d50"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/powermock-api-mockito-1.5.5-cedb8486eb3feaebed0ddb939ed2e6ae8bfc37b3.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito/1.5.5/5c1dd0cc7e9f6ee36fe00f1786a3bad71301d9b2/powermock-api-mockito-1.5.5.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="5c1dd0cc7e9f6ee36fe00f1786a3bad71301d9b2"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/junit-3.8.1-5391253a1082034d253944f66566cc01375ec1dd.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.1/99129f16442844f6a4a11ae22fbbee40b14d774f/junit-3.8.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="99129f16442844f6a4a11ae22fbbee40b14d774f"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/powermock-reflect-1.5.5-a867fadb97479ad383f21c9420f68f91208b1d68.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-reflect/1.5.5/cc8cc783dbef2d0c0d83e099cf3e74127b2c2251/powermock-reflect-1.5.5.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="cc8cc783dbef2d0c0d83e099cf3e74127b2c2251"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/powermock-api-support-1.5.5-6efceeb960751f4fde73272f093ee9dc793be05c.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-support/1.5.5/47ced6e594775c9540f2510d339c7d27c290bbd3/powermock-api-support-1.5.5.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="47ced6e594775c9540f2510d339c7d27c290bbd3"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/junit-4.11-79c3d7e93291fe1067096c1294f9fde9212385e5.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="4e031bb61df09069aeb2bffb4019e7a5034a4ee0"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/asm-util-5.0.1-38dd5ed4c7b0b0104a399a545dbc0790a8054073.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.1/7c8caddfbd0b2d7b844f8fcc75175b9cb9cf4724/asm-util-5.0.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="7c8caddfbd0b2d7b844f8fcc75175b9cb9cf4724"/>
-    <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/butterknife-5.1.1-ec871ff48c98606a851551be6f4a91ad98daa9aa.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.1/b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8/butterknife-5.1.1.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8"/>
     <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/robolectric-2.3-7206f5bf119c35d9017758c657d558da2c8919d3.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.robolectric/robolectric/2.3/45dfeecf071f1f234961f80c64edccf1edb4d374/robolectric-2.3.jar"
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-bf2c556fac0a6fd2748f9fd61cab864237afcd5d.jar"
+        jar="/Users/vk/Development/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="45dfeecf071f1f234961f80c64edccf1edb4d374"/>
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
     <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/asm-5.0.1-d6f2b8cc099f350805205510d8a7887906810088.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.1/2fd56467a018aafe6ec6a73ccba520be4a7e1565/asm-5.0.1.jar"
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/guava-17.0-33e124bfe35c73b51dbc3be6807f48e26cdb46dc.jar"
+        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="2fd56467a018aafe6ec6a73ccba520be4a7e1565"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/fest-reflect-1.4.1-d20e507e3518f94ef654a3b59320c070e28d17cd.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.easytesting/fest-reflect/1.4.1/2b92d5275e92a49e16c7ce6bd7e46b9080db0530/fest-reflect-1.4.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="2b92d5275e92a49e16c7ce6bd7e46b9080db0530"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/commons-codec-1.3-2753dbe3d7fd79c7be087e8cc8aa4ad296ea4c74.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.3/fd32786786e2adb664d5ecc965da47629dca14ba/commons-codec-1.3.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="fd32786786e2adb664d5ecc965da47629dca14ba"/>
+        sha1="9c6ef172e8de35fd8d4d8783e4821e57cdef7445"/>
     <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/rxjava-android-0.19.2-46c1cdc7c439b080cd4fd3c355ea1768009d152d.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-android/0.19.2/e6a2bc6ce6350dc70af503087e8d9d5dba4374c1/rxjava-android-0.19.2.jar"
@@ -170,34 +32,16 @@
         revision="20.0.0"
         sha1="b18f01b635f39f0a6af7ae792f07cb003a51e6a2"/>
     <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/asm-tree-5.0.1-0cb6a624106ca0201fb170ee28c03d21cb16ca21.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.1/1b1e6e9d869acd704056d0a4223071a511c619e6/asm-tree-5.0.1.jar"
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-0e51a774191170fa9fc7a35897290905e6f4338c.jar"
+        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="1b1e6e9d869acd704056d0a4223071a511c619e6"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/asm-analysis-5.0.1-0150447cf3dd9fdde59827c009577be3a8df7955.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.1/e286fbee48efacb4e7c175f7948d9d8b2ab52352/asm-analysis-5.0.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="e286fbee48efacb4e7c175f7948d9d8b2ab52352"/>
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e"/>
     <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/okio-1.0.0-68d4f68f2bb94517535d3574f54161e074a86b49.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="02534c458682c73f5b9871131ab3098d3f987ca3"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/javassist-3.18.2-GA-eb734fcecc051646579116c368313458d698d912.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/1180a90fbad732b60fb728a6bbe8fcb3151423d7/javassist-3.18.2-GA.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1180a90fbad732b60fb728a6bbe8fcb3151423d7"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/test/debug/fest-util-1.2.5-3fea22a4f1c193c1b9844221108b019f73f20f1b.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.easytesting/fest-util/1.2.5/c4a8d7305b23b8d043be12c979813b096df11f44/fest-util-1.2.5.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="c4a8d7305b23b8d043be12c979813b096df11f44"/>
 
 </pre-dex-items>

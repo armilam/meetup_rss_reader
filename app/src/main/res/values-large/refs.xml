@@ -1,0 +1,4 @@
+<resources>
+    <item type="layout" name="activity_rssitem_list">@layout/activity_rssitem_twopane</item>
+    <bool name="two_pane">true</bool>
+</resources>

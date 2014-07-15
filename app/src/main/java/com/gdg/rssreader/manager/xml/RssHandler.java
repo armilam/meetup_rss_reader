@@ -2,7 +2,6 @@ package com.gdg.rssreader.manager.xml;
 
 
 import com.gdg.rssreader.model.RssItem;
-import com.google.common.base.Optional;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
