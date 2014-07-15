@@ -32,6 +32,14 @@ public class RssItemDetailFragment extends Fragment {
     }
 
     @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putString("TITLE", item.getTitle());
+        outState.putString("LINK", item.getLink());
+        outState.putString("CONTENT", item.getContent());
+        super.onSaveInstanceState(outState);
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_rssitem_detail, container, false);
         webView = (WebView) rootView.findViewById(R.id.web_story);

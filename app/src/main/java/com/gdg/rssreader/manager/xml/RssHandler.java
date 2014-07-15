@@ -37,12 +37,10 @@ public class RssHandler extends DefaultHandler {
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
         stringBuilder = new StringBuilder();
-
         if (qName.equals("item")) {
             if (item != null) {
                 feedItemsSignal.onNext(item);
             }
-
             item = new RssItem();
             isParsingItem = true;
         }
