@@ -1,6 +1,7 @@
 package com.gdg.rssreader.manager;
 
 import com.gdg.rssreader.manager.xml.RssHandler;
+import com.gdg.rssreader.model.RssFeed;
 import com.gdg.rssreader.model.RssItem;
 import com.squareup.okhttp.Call;
 import com.squareup.okhttp.Callback;
@@ -18,13 +19,23 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
 
 import rx.Observable;
+import rx.functions.Action1;
 import rx.subjects.BehaviorSubject;
 
 public class FeedManager {
     private static FeedManager instance;
     private BehaviorSubject<RssItem> feedItems;
+    private RssFeed feed;
 
     private FeedManager() {
+        feed = new RssFeed();
+        feedItems = BehaviorSubject.create();
+        feedItems.subscribe(new Action1<RssItem>() {
+            @Override
+            public void call(RssItem rssItem) {
+                feed.addItem(rssItem);
+            }
+        });
     }
 
     public static FeedManager getInstance() {
@@ -36,8 +47,11 @@ public class FeedManager {
 
     public Observable<RssItem> followFeedUpdates() {
         downloadStories();
-        feedItems = BehaviorSubject.create();
         return feedItems;
+    }
+
+    public RssFeed getFeed(){
+        return this.feed;
     }
 
     private void downloadStories() {
@@ -60,7 +74,7 @@ public class FeedManager {
                 try {
                     XMLReader reader = SAXParserFactory.newInstance().newSAXParser().getXMLReader();
                     InputSource source = new InputSource(response.body().byteStream());
-//                    reader.setContentHandler(handler);
+                    reader.setContentHandler(handler);
                     reader.parse(source);
                 } catch (SAXException e) {
                     e.printStackTrace();

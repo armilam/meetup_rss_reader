@@ -3,15 +3,15 @@ package com.gdg.rssreader.model;
 public class RssItem {
     private String title;
     private String link;
-    private String story;
+    private String content;
 
     public RssItem() {
     }
 
-    public RssItem(String title, String link, String story){
+    public RssItem(String title, String link, String content){
         this.title = title;
         this.link = link;
-        this.story = story;
+        this.content = content;
     }
 
     public String getTitle() {
@@ -30,12 +30,12 @@ public class RssItem {
         this.link = link;
     }
 
-    public String getStory() {
-        return story;
+    public String getContent() {
+        return content;
     }
 
-    public void setStory(String story) {
-        this.story = story;
+    public void setContent(String content) {
+        this.content = content;
     }
 
 }

@@ -2,6 +2,7 @@ package com.gdg.rssreader.manager.xml;
 
 
 import com.gdg.rssreader.model.RssItem;
+import com.google.common.base.Optional;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
@@ -39,8 +40,10 @@ public class RssHandler extends DefaultHandler {
         stringBuilder = new StringBuilder();
 
         if (qName.equals("item")) {
-            if (item != null)
+            if (item != null) {
                 feedItemsSignal.onNext(item);
+            }
+
             item = new RssItem();
             isParsingItem = true;
         }
@@ -54,12 +57,8 @@ public class RssHandler extends DefaultHandler {
     @Override
     public void endElement(String uri, String localName, String qName) {
 
-        if (!isParsingItem) {
-            // Parse feed properties
-        } else {
-            if (fieldsForItem.containsKey(qName)) {
-                parseRssItem(qName, stringBuilder.toString());
-            }
+        if (isParsingItem && fieldsForItem.containsKey(qName)) {
+            parseRssItem(qName, stringBuilder.toString());
         }
     }
 
