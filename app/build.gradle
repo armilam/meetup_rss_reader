@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.10.+'
+    }
+}
+
+apply plugin: 'android-sdk-manager'
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "com.gdg.rssreader"
+        minSdkVersion 14
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+sourceSets {
+    testLocal {
+        java.srcDir file('src/androidTest/java')
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.squareup.okhttp:okhttp:2.0.0'
+    compile 'com.netflix.rxjava:rxjava-android:0.19.2'
+    compile 'com.netflix.rxjava:rxjava-core:0.19.6'
+    compile 'com.jakewharton:butterknife:5.1.1'
+    compile 'com.google.guava:guava:17.0'
+    compile 'org.mockito:mockito-all:1.9.5'
+
+    compile 'org.powermock:powermock-module-junit3:+'
+    compile 'org.powermock:powermock-api-mockito:+'
+
+}
