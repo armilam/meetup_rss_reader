@@ -23,6 +23,7 @@ import rx.functions.Action1;
 import rx.subjects.BehaviorSubject;
 
 public class FeedManager {
+    private static final String googleNewsUrl = "https://news.google.com/?topic=s&output=rss";
     private static FeedManager instance;
     private BehaviorSubject<RssItem> feedItems;
     private RssFeed feed;
@@ -57,8 +58,7 @@ public class FeedManager {
     private void downloadStories() {
 
         OkHttpClient client = new OkHttpClient();
-        String url = "https://news.google.com/?topic=s&output=rss";
-        Request request = new Request.Builder().url(url).build();
+        Request request = new Request.Builder().url(googleNewsUrl).build();
         Call call = client.newCall(request);
 
         call.enqueue(new Callback() {
