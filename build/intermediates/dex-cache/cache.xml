@@ -2,23 +2,47 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/rxjava-core-0.19.6-ae2382e869aca407f40fc145f62d4a1a789bf2e0.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-core/0.19.6/b18f01b635f39f0a6af7ae792f07cb003a51e6a2/rxjava-core-0.19.6.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="b18f01b635f39f0a6af7ae792f07cb003a51e6a2"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-2fab860e89d57d06f5f6442876694c168a2aee04.jar"
-        jar="/Users/vk/Development/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-bf2c556fac0a6fd2748f9fd61cab864237afcd5d.jar"
+        jar="/Users/vk/Development/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/mockito-core-1.9.5-10b833e296dcd6e2b608e7512ed3f846c9677b85.jar"
+        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.9.5/c3264abeea62c4d2f367e21484fbb40c7e256393/mockito-core-1.9.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c3264abeea62c4d2f367e21484fbb40c7e256393"/>
     <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/guava-17.0-33e124bfe35c73b51dbc3be6807f48e26cdb46dc.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="9c6ef172e8de35fd8d4d8783e4821e57cdef7445"/>
+    <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/hamcrest-core-1.1-81b746962b7dc49aa39b114cd26b4b6378be2b45.jar"
+        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="860340562250678d1a344907ac75754e259cdb14"/>
+    <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/rxjava-android-0.19.2-46c1cdc7c439b080cd4fd3c355ea1768009d152d.jar"
+        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-android/0.19.2/e6a2bc6ce6350dc70af503087e8d9d5dba4374c1/rxjava-android-0.19.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e6a2bc6ce6350dc70af503087e8d9d5dba4374c1"/>
+    <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/rxjava-core-0.19.6-ae2382e869aca407f40fc145f62d4a1a789bf2e0.jar"
+        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-core/0.19.6/b18f01b635f39f0a6af7ae792f07cb003a51e6a2/rxjava-core-0.19.6.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b18f01b635f39f0a6af7ae792f07cb003a51e6a2"/>
+    <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/objenesis-1.0-066bc69f6c442ec5887d4167f4a6b4088a68201e.jar"
+        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/1.0/9b473564e792c2bdf1449da1f0b1b5bff9805704/objenesis-1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9b473564e792c2bdf1449da1f0b1b5bff9805704"/>
     <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-0e51a774191170fa9fc7a35897290905e6f4338c.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
@@ -32,28 +56,10 @@
         revision="20.0.0"
         sha1="02534c458682c73f5b9871131ab3098d3f987ca3"/>
     <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-9bc3075451ab541e41f1740085db36becc3a1f80.jar"
-        jar="/Users/vk/AndroidStudioProjects/meetup_rss_reader/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/classes-c9340e77994e176fc92d9b3d459808825739178e.jar"
-        jar="/Users/vk/AndroidStudioProjects/meetup_rss_reader/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
-    <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/butterknife-5.1.1-ec871ff48c98606a851551be6f4a91ad98daa9aa.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.1/b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8/butterknife-5.1.1.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8"/>
-    <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/rxjava-android-0.19.2-46c1cdc7c439b080cd4fd3c355ea1768009d152d.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-android/0.19.2/e6a2bc6ce6350dc70af503087e8d9d5dba4374c1/rxjava-android-0.19.2.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="e6a2bc6ce6350dc70af503087e8d9d5dba4374c1"/>
 
 </pre-dex-items>

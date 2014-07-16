@@ -4,6 +4,8 @@ import com.gdg.rssreader.model.RssItem;
 
 import junit.framework.TestCase;
 
+import org.mockito.Mockito;
+
 import java.lang.reflect.Field;
 
 public class TestRssHandler extends TestCase{
@@ -21,14 +23,15 @@ public class TestRssHandler extends TestCase{
 
     public void testParseRssItem() throws Exception {
         RssItem itemToTest = new RssItem();
-        itemToTest = setRssItemField("title", "test");
-        assertEquals("test", itemToTest.getTitle());
 
-        itemToTest = setRssItemField("link", "test");
-        assertEquals("test", itemToTest.getLink());
+        itemToTest = setRssItemField("title", Mockito.anyString());
+        assertEquals(Mockito.anyString(), itemToTest.getTitle());
 
-        itemToTest = setRssItemField("content", "test");
-        assertEquals("test", itemToTest.getContent());
+        itemToTest = setRssItemField("link", Mockito.anyString());
+        assertEquals(Mockito.anyString(), itemToTest.getLink());
+
+        itemToTest = setRssItemField("content", Mockito.anyString());
+        assertEquals(Mockito.anyString(), itemToTest.getContent());
     }
 
     private RssItem setRssItemField(String fieldName, String fieldValue) throws NoSuchFieldException {

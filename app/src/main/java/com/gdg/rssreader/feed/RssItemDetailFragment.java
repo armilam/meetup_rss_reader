@@ -29,6 +29,11 @@ public class RssItemDetailFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        RssItem i = new RssItem();
+        i.setTitle(savedInstanceState.getString("TITLE"));
+        i.setLink(savedInstanceState.getString("LINK"));
+        i.setLink(savedInstanceState.getString("CONTENT"));
     }
 
     @Override
@@ -48,7 +53,6 @@ public class RssItemDetailFragment extends Fragment {
         getActivity().getActionBar().setTitle(item.getTitle());
 
         String story = item.getContent();
-        Log.e("TAG", "Story: " + story);
         return rootView;
 
     }
