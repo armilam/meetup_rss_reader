@@ -24,6 +24,9 @@ import rx.subjects.BehaviorSubject;
 
 public class FeedManager {
     private static final String googleNewsUrl = "https://news.google.com/?topic=s&output=rss";
+    private static final String androidDevelopersBlog = "http://feeds.feedburner.com/blogspot/hsDu?format=xml";
+    private static final String popularScience = "https://www.popsci.com/rss-feeds";
+    private static final String nprSports = "http://www.npr.org/rss/rss.php?id=1055";
     private static FeedManager instance;
     private BehaviorSubject<RssItem> feedItems;
     private RssFeed feed;
@@ -56,7 +59,12 @@ public class FeedManager {
     }
 
     private void downloadStories() {
+//        downloadWithOkHttp();
+        downloadWithAsync(nprSports);
+    }
 
+    private void downloadWithOkHttp() {
+        //Causes an exception in Android Preview
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(googleNewsUrl).build();
         Call call = client.newCall(request);
@@ -84,4 +92,9 @@ public class FeedManager {
             }
         });
     }
+
+    private void downloadWithAsync(String url){
+        new XMLDownloader(feedItems, url).execute();
+    }
+
 }

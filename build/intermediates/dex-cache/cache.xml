@@ -2,11 +2,17 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-bf2c556fac0a6fd2748f9fd61cab864237afcd5d.jar"
-        jar="/Users/vk/Development/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/classes-49533b17be7204d305f5ab9b30f7b70da9864b46.jar"
+        jar="/Users/vk/AndroidStudioProjects/meetup_rss_reader/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/classes.jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+        revision="20.0.0"
+        sha1="7ae84435ebc95f67a3f5e511025e96caa8688da2"/>
+    <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/classes-f883327174bce00ccc15498c94edc4515e04930d.jar"
+        jar="/Users/vk/AndroidStudioProjects/meetup_rss_reader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0-rc1/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f43ddb172b0a91aa546a2aec7e6aad71c935d036"/>
     <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/mockito-core-1.9.5-10b833e296dcd6e2b608e7512ed3f846c9677b85.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.9.5/c3264abeea62c4d2f367e21484fbb40c7e256393/mockito-core-1.9.5.jar"
@@ -38,11 +44,29 @@
         revision="20.0.0"
         sha1="b18f01b635f39f0a6af7ae792f07cb003a51e6a2"/>
     <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/classes-ca5d029b4b5b60838626372ac22d818f5a11b8b7.jar"
+        jar="/Users/vk/AndroidStudioProjects/meetup_rss_reader/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0-rc1/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="25c58e61f70a3d78e5c5abcfc9db0555fc869b7d"/>
+    <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-rc1-f208dbc1afa66b122e308f10712360b58b1f4684.jar"
+        jar="/Users/vk/AndroidStudioProjects/meetup_rss_reader/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/libs/internal_impl-21.0.0-rc1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1a625e8a94bf7c73e0f9d30ad1b483ff6ea64e9"/>
+    <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/objenesis-1.0-066bc69f6c442ec5887d4167f4a6b4088a68201e.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/1.0/9b473564e792c2bdf1449da1f0b1b5bff9805704/objenesis-1.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="9b473564e792c2bdf1449da1f0b1b5bff9805704"/>
+    <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/okio-1.0.0-68d4f68f2bb94517535d3574f54161e074a86b49.jar"
+        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3"/>
     <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-0e51a774191170fa9fc7a35897290905e6f4338c.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
@@ -50,11 +74,17 @@
         revision="20.0.0"
         sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e"/>
     <item
-        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/okio-1.0.0-68d4f68f2bb94517535d3574f54161e074a86b49.jar"
-        jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-rc1-04f1ada50d6fee369e5ab4db8890344880ce5e58.jar"
+        jar="/Users/vk/Development/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0-rc1/support-annotations-21.0.0-rc1.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="02534c458682c73f5b9871131ab3098d3f987ca3"/>
+        sha1="57c343f05b73b923bf2502b05851dbfe12193dcb"/>
+    <item
+        dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/classes-0a4a0eedab5bf83f2af370f8eb97e0942d077a2e.jar"
+        jar="/Users/vk/AndroidStudioProjects/meetup_rss_reader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0-rc1/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="14d500eeb7128db6c0f9b55f166c42eacf00f3b6"/>
     <item
         dex="/Users/vk/AndroidStudioProjects/meetup_rss_reader/app/build/intermediates/pre-dexed/debug/butterknife-5.1.1-ec871ff48c98606a851551be6f4a91ad98daa9aa.jar"
         jar="/Users/vk/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.1/b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8/butterknife-5.1.1.jar"

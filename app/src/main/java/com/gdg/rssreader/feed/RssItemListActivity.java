@@ -18,7 +18,6 @@ public class RssItemListActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rssitem_list);
 
-
         twoPane = getResources().getBoolean(R.bool.two_pane);
         if (twoPane) {
             ((RssItemListFragment) getFragmentManager()
@@ -32,7 +31,6 @@ public class RssItemListActivity extends Activity
     public void onItemSelected(int position) {
         RssItem item = FeedManager.getInstance().getFeed().getItems().get(position);
         if (twoPane) {
-            Bundle b = new Bundle();
             RssItemDetailFragment fragment = RssItemDetailFragment.instance(item);
             getFragmentManager().beginTransaction()
                     .replace(R.id.rssitem_detail_container, fragment)

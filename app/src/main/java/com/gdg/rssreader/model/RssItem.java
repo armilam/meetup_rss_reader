@@ -4,6 +4,7 @@ public class RssItem {
     private String title;
     private String link;
     private String content;
+    private String description;
 
     public RssItem() {
     }
@@ -38,4 +39,11 @@ public class RssItem {
         this.content = content;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

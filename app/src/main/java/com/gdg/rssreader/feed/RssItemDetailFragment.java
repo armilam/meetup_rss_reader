@@ -30,10 +30,13 @@ public class RssItemDetailFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        RssItem i = new RssItem();
-        i.setTitle(savedInstanceState.getString("TITLE"));
-        i.setLink(savedInstanceState.getString("LINK"));
-        i.setLink(savedInstanceState.getString("CONTENT"));
+        if(savedInstanceState != null) {
+            RssItem i = new RssItem();
+            i.setTitle(savedInstanceState.getString("TITLE"));
+            i.setLink(savedInstanceState.getString("LINK"));
+            i.setLink(savedInstanceState.getString("CONTENT"));
+            this.item = i;
+        }
     }
 
     @Override
