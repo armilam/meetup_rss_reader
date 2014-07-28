@@ -1,6 +1,7 @@
 package com.gdg.rssreader.feed;
 
 import android.content.Intent;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,7 +22,10 @@ public class RssItemAdapter extends RecyclerView.Adapter<RssItemAdapter.ViewHold
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_summary, null);
+//        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_summary, null);
+//        CardView card = new CardView();
+//        card.
+        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_summary_card, null);
         View.OnClickListener clickListener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -54,13 +58,13 @@ public class RssItemAdapter extends RecyclerView.Adapter<RssItemAdapter.ViewHold
             super(v);
             v.setOnClickListener(clickListener);
             title = (TextView)v.findViewById(R.id.text_story_title);
-            description = (TextView)v.findViewById(R.id.text_story_description);
+//            description = (TextView)v.findViewById(R.id.text_story_description);
         }
 
         public void setRssItem(RssItem item){
             this.item = item;
             this.title.setText(item.getTitle());
-            this.description.setText(item.getDescription());
+//            this.description.setText(item.getDescription());
         }
 
     }

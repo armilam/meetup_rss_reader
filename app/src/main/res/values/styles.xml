@@ -1,8 +1,23 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:ThemeOverlay.Material.Dark.ActionBar">
+    <style name="AppTheme" parent="android:ThemeOverlay.Material.ActionBar">
         <!-- Customize your theme here. -->
+
+        <!-- The "App" Bar, formally the Action Bar, color-->
+        <item name="android:colorPrimary">@android:color/holo_green_dark</item>
+
+        <!-- Status bar Color-->
+        <item name="android:colorPrimaryDark">@android:color/holo_red_dark</item>
+
+        <!-- UI Controls - Checkboxes, TextViews-->
+        <item name="android:colorAccent">@android:color/holo_orange_dark</item>
+
+        <item name="android:shadowColor">@color/maroon</item>
+
+        <item name="android:colorPressedHighlight">@color/teal</item>
+        <item name="android:colorLongPressedHighlight">@color/fuchsia</item>
+        <item name="android:colorActivatedHighlight">@color/navy</item>
     </style>
 
 </resources>
